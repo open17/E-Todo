@@ -1,11 +1,6 @@
 <template>
-  <div id="app">
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view />
+  <div id="app" class=" p-6 h-screen w-screen">
+    <div class="bg-slate-400 h-full w-full rounded-lg"></div>
   </div>
 </template>
 
